@@ -30,16 +30,16 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print 'Gobbles you down in one bite!'
+		print ('Gobbles you down in one bite!')
 
 playAgain = 'yes'
-while playAgain = 'yes' or playAgain = 'y':
+while playAgain == 'yes' or playAgain == 'y':
 	displayIntro()
-	caveNumber = choosecave()
+	caveNumber = chooseCave()
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
 	playAgain = input()
 	if playAgain == "no":
-		print("Thanks for planing")
+		print("Thanks for playing")
 
